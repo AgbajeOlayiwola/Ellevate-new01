@@ -1,0 +1,175 @@
+.sectionCove {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    width: 85%;
+    max-width: 1283px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.sectionI {
+    width: 37%;
+    max-width: 470px;
+    position: relative;
+}
+
+.sectionII {
+    padding: 120px 0px;
+    max-width: 682px;
+    width: 53%;
+}
+
+.loginCont {
+    width: 60%;
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.bvn {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    margin-top: 40vh;
+    max-width: 417px;
+}
+.bvn span {
+    color: #6ccf00;
+}
+.welc {
+    margin-bottom: 48px;
+}
+
+.welc h2 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 43px;
+    margin: 0px;
+    margin-bottom: 0.5rem;
+    color: #102572;
+}
+.welc p {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 152.52%;
+    color: #6a6a6a;
+}
+.form div label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #7a7978;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.loginForm {
+    padding-bottom: 24px;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.emailInput {
+    background-image: url('/Assets/Svgs/mail.svg');
+    background-position: 8%;
+    background-repeat: no-repeat;
+    padding-left: 65px;
+}
+.passwordInput {
+    background-image: url('/Assets/Svgs/lock.svg');
+    background-position: 8%;
+    background-repeat: no-repeat;
+    padding-left: 65px;
+    position: relative;
+}
+
+.form button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.accout {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0px;
+    margin-top: 24px;
+    color: #a5a5a5;
+}
+.accout span {
+    color: #102572;
+    font-weight: 700;
+}
+.visible {
+    position: absolute;
+}
+.errors {
+    color: red;
+    font-size: 12px;
+    margin: 0px;
+    margin-top: 5px;
+}
+.spacing {
+    margin-top: 1rem;
+}
+.divs {
+    display: flex;
+    align-items: center;
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding-right: 16px;
+}
+
+.divs input {
+    height: 100%;
+    padding: 0px;
+    border: 0px;
+    padding: 16px 16px 16px 65px;
+}
+.remForg {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a5a5a5;
+}
+.remForg div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.remForg div:nth-child(1) p {
+    margin-left: 12px;
+}
+
+.forget {
+    cursor: pointer;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin: 0px;
+    /* margin-top: -1rem; */
+}
